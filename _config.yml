@@ -19,10 +19,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/jktest" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  callmenp
 
 # Build settings
 markdown: kramdown
@@ -45,3 +45,5 @@ algolia:
   application_id: UEMGYWAZCB
   index_name:     jktest # You can replace that with whatever name you want
   search_only_api_key: 267e0461197f52875183d87ce7641cb5
+
+theme: monophase
