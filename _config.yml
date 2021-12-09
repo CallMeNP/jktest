@@ -46,4 +46,4 @@ algolia:
   index_name:     jktest # You can replace that with whatever name you want
   search_only_api_key: 267e0461197f52875183d87ce7641cb5
 
-theme: monophase
+theme: minima
