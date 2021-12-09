@@ -48,9 +48,14 @@ search.addWidget(
   })
 );
 search.addWidget(
+    instantsearch.widgets.clearRefinements({
+        container: '#clear-refinements',
+    })
+);
+search.addWidget(
     instantsearch.widgets.refinementList({
-    container: '#dict-cate-list',
-    attribute: 'dict-cate',
+        container: '#dict-cate-list',
+        attribute: 'dict-cate',
   })
 );
 search.addWidget(
