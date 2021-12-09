@@ -1,7 +1,7 @@
 ---
 title: बुद्ध 
 word: buddha
-dict-cate: 梵
+category: 梵
 ---
 ## 【释义】
 बुद्ध p. p. [बुध्-क्त] −1. Known, understood, perceived. −2. Awakened, awake. −3. Observed. −4. Enlightened, wise; एवमेव मनुष्येन्द्र धर्मं त्यक्त्वाल्पकं नरः । बृहन्तं धर्ममाप्नोति स बुद्ध इति निश्चितम् ॥ Mb.3.33.67; (see बुध्). −5. Expanded (विकसित); सरःसु बुद्धाम्बुजभूषणेषु विक्षोभ्य विक्षोभ्य जलं पिबन्ति Rām.4.30.41;5.14.24.

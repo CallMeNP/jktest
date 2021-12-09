@@ -1,6 +1,6 @@
 ---
 title: buddha
-dict-cate: 梵
+category: 梵汉
 ---
 ## 【析词】
 buddha

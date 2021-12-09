@@ -1,6 +1,6 @@
 ---
 title: buddha
-dict-cate: 梵
+category: 梵
 ---
 ## 【释义】
 `buddha`, mfn. awakened, awake MBh. ; expanded, blown SāmavBr. ; conscious, intelligent, clever, wise (opp. to mūḍha) MBh. Kāv. &c. ; learnt, known, understood Āpast. MBh. (“by” , usually instr., but also gen. according to Pāṇ. 2-2, 12; 3, 67 Sch.) ; [► p. 733b](http://fanfoyan.com/pdfjs/show-mw.html?cur=0733&max=1333&len=4&path=/mw/)

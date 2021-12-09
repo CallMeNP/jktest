@@ -1,7 +1,7 @@
 ---
 layout: post
 title: yoga
-dict-cate: 梵
+category: 梵汉
 ---
 ## 【析词】
 yoga
