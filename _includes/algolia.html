@@ -1,22 +1,14 @@
-<!--script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script-->
-<!--script-- src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script-->
-<!--link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css"-->
-<!--link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css"-->
-<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7/themes/algolia-min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
 
 <script>
-// const search = instantsearch({
-//   appId: '{{ site.algolia.application_id }}',
-//   apiKey: '{{ site.algolia.search_only_api_key }}',
-//   indexName: '{{ site.algolia.index_name }}'
-// });
 const search = instantsearch({
-    indexName: '{{ site.algolia.index_name }}',
-    searchClient: algoliasearch('{{ site.algolia.application_id }}', '{{ site.algolia.search_only_api_key }}')
+  appId: '{{ site.algolia.application_id }}',
+  apiKey: '{{ site.algolia.search_only_api_key }}',
+  indexName: '{{ site.algolia.index_name }}'
 });
-
 
 const hitTemplate = function(hit) {
   let date = '';
@@ -56,15 +48,10 @@ search.addWidget(
   })
 );
 search.addWidget(
-    instantsearch.widgets.clearRefinements({
-        container: '#clear-refinements',
-    })
-);
-search.addWidget(
     instantsearch.widgets.refinementList({
-        container: '#dict-cate-list',
-        attribute: 'dict-cate',
-  })
+        container: document.querySelector('#dict-cate-list'),
+        attributeName: 'dict-cate'
+    })
 );
 search.addWidget(
   instantsearch.widgets.hits({
